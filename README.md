@@ -9,7 +9,7 @@ at https://www.flightstats.com/v2/. The response data is cleansed and then the r
 
 At this stage the scraper can find flight details for most major commercial airlines which operate within NZ airspace.  
 
-###Application
+### Application
                     
 The application was built using React, Redux, Express, Node.js, Bootstrap, and the Google Maps API.
 

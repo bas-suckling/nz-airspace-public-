@@ -1,0 +1,1860 @@
+{
+    "props": {
+        "store": {},
+        "isServer": true,
+        "initialState": {
+            "app": {
+                "user": {},
+                "appHost": "http://www.flightstats.com/v2"
+            },
+            "elasticSearch": {},
+            "flick": {},
+            "flightTracker": {
+                "flight": {
+                    "flightId": 1022509824,
+                    "flightNote": {
+                        "final": false,
+                        "canceled": false,
+                        "hasDepartedGate": true,
+                        "hasDepartedRunway": true,
+                        "landed": false,
+                        "message": null,
+                        "messageCode": null,
+                        "pastExpectedTakeOff": true,
+                        "tracking": true,
+                        "hasPositions": true,
+                        "trackingUnavailable": false,
+                        "phase": "Cruising",
+                        "hasActualRunwayDepartureTime": true,
+                        "hasActualGateDepartureTime": true
+                    },
+                    "isTracking": true,
+                    "isLanded": false,
+                    "isScheduled": false,
+                    "sortTime": "2019-11-26T02:15:00.000Z",
+                    "schedule": {
+                        "scheduledDeparture": "2019-11-26T15:15:00.000",
+                        "scheduledDepartureUTC": "2019-11-26T02:15:00.000Z",
+                        "estimatedActualDepartureRunway": false,
+                        "estimatedActualDepartureTitle": "Actual",
+                        "estimatedActualDeparture": "2019-11-26T15:17:00.000",
+                        "estimatedActualDepartureUTC": "2019-11-26T02:17:00.000Z",
+                        "scheduledArrival": "2019-11-26T20:55:00.000",
+                        "scheduledArrivalUTC": "2019-11-26T12:55:00.000Z",
+                        "estimatedActualArrivalRunway": false,
+                        "estimatedActualArrivalTitle": "Estimated",
+                        "estimatedActualArrival": "2019-11-26T20:56:00.000",
+                        "estimatedActualArrivalUTC": "2019-11-26T12:56:00.000Z",
+                        "graphXAxis": {
+                            "dep": "2019-11-26T15:17:00.000",
+                            "depUTC": "2019-11-26T02:17:00.000Z",
+                            "arr": "2019-11-26T20:56:00.000",
+                            "arrUTC": "2019-11-26T12:56:00.000Z"
+                        },
+                        "tookOff": "2019-11-26T15:17:00.000"
+                    },
+                    "status": {
+                        "statusCode": "A",
+                        "status": "Departed",
+                        "color": "green",
+                        "statusDescription": "On time",
+                        "delay": {
+                            "departure": {
+                                "minutes": 2
+                            },
+                            "arrival": {
+                                "minutes": 1
+                            }
+                        },
+                        "delayStatus": {
+                            "wording": "On time",
+                            "minutes": 1
+                        },
+                        "lastUpdatedText": "Status Last Updated 1 Hour and 53 Minutes Ago",
+                        "diverted": false
+                    },
+                    "resultHeader": {
+                        "statusDescription": "On time",
+                        "carrier": {
+                            "name": "Singapore Airlines",
+                            "fs": "SQ"
+                        },
+                        "flightNumber": "286",
+                        "status": "Departed",
+                        "diverted": false,
+                        "color": "green",
+                        "departureAirportFS": "AKL",
+                        "arrivalAirportFS": "SIN",
+                        "divertedAirport": null
+                    },
+                    "ticketHeader": {
+                        "carrier": {
+                            "name": "Singapore Airlines",
+                            "fs": "SQ"
+                        },
+                        "flightNumber": "286",
+                        "iconURL": "https://d3brl4nqahsb3e.cloudfront.net/logos/png/150x50/sq-logo.png"
+                    },
+                    "operatedBy": null,
+                    "departureAirport": {
+                        "fs": "AKL",
+                        "iata": "AKL",
+                        "name": "Auckland Airport",
+                        "city": "Auckland",
+                        "country": "NZ",
+                        "timeZoneRegionName": "Pacific/Auckland",
+                        "regionName": "Oceania",
+                        "gate": "16",
+                        "terminal": "I",
+                        "times": {
+                            "scheduled": {
+                                "time": "3:15",
+                                "ampm": "PM",
+                                "time24": "15:15",
+                                "timezone": "NZDT"
+                            },
+                            "estimatedActual": {
+                                "title": "Actual",
+                                "time": "3:17",
+                                "ampm": "PM",
+                                "time24": "15:17",
+                                "runway": false,
+                                "timezone": "NZDT"
+                            }
+                        },
+                        "date": "2019-11-26T15:15:00.000"
+                    },
+                    "arrivalAirport": {
+                        "fs": "SIN",
+                        "iata": "SIN",
+                        "name": "Changi International Airport",
+                        "city": "Singapore",
+                        "country": "SG",
+                        "timeZoneRegionName": "Asia/Singapore",
+                        "regionName": "Asia",
+                        "gate": null,
+                        "terminal": null,
+                        "baggage": null,
+                        "times": {
+                            "scheduled": {
+                                "time": "8:55",
+                                "ampm": "PM",
+                                "time24": "20:55",
+                                "timezone": "+08"
+                            },
+                            "estimatedActual": {
+                                "title": "Estimated",
+                                "time": "8:56",
+                                "ampm": "PM",
+                                "time24": "20:56",
+                                "runway": false,
+                                "timezone": "+08"
+                            }
+                        },
+                        "date": "2019-11-26T20:55:00.000"
+                    },
+                    "divertedAirport": null,
+                    "additionalFlightInfo": {
+                        "equipment": {
+                            "iata": "388",
+                            "name": "Airbus A380-800 Passenger",
+                            "title": "Actual"
+                        },
+                        "flightDuration": "10h 40m"
+                    },
+                    "codeshares": [
+                        {
+                            "fs": "ET",
+                            "name": "Ethiopian Airlines",
+                            "flightNumber": "1318"
+                        },
+                        {
+                            "fs": "LH",
+                            "name": "Lufthansa",
+                            "flightNumber": "9767"
+                        },
+                        {
+                            "fs": "LX",
+                            "name": "SWISS",
+                            "flightNumber": "9031"
+                        },
+                        {
+                            "fs": "NZ",
+                            "name": "Air New Zealand",
+                            "flightNumber": "3286"
+                        },
+                        {
+                            "fs": "OZ",
+                            "name": "Asiana Airlines",
+                            "flightNumber": "6800"
+                        },
+                        {
+                            "fs": "SK",
+                            "name": "SAS",
+                            "flightNumber": "8006"
+                        },
+                        {
+                            "fs": "TK",
+                            "name": "Turkish Airlines",
+                            "flightNumber": "9335"
+                        },
+                        {
+                            "fs": "UK*",
+                            "name": "Vistara",
+                            "flightNumber": "8286"
+                        }
+                    ],
+                    "positional": {
+                        "departureAirportCode": "AKL",
+                        "arrivalAirportCode": "SIN",
+                        "divertedAirportCode": null,
+                        "flexFlightStatus": "A",
+                        "flexTrack": {
+                            "flightId": 1022509824,
+                            "carrierFsCode": "SQ",
+                            "flightNumber": "286",
+                            "tailNumber": "9V-SKI",
+                            "callsign": "SIA286",
+                            "departureAirportFsCode": "AKL",
+                            "arrivalAirportFsCode": "SIN",
+                            "departureDate": {
+                                "dateLocal": "2019-11-26T15:15:00.000",
+                                "dateUtc": "2019-11-26T02:15:00.000Z"
+                            },
+                            "equipment": "388",
+                            "delayMinutes": 1,
+                            "bearing": 291.6107551748654,
+                            "heading": 291.46728599686094,
+                            "positions": [
+                                {
+                                    "lon": 158.8445,
+                                    "lat": -31.8461,
+                                    "speedMph": 517,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:32:07.372Z",
+                                    "course": 292,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 158.9812,
+                                    "lat": -31.892,
+                                    "speedMph": 517,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:31:07.319Z",
+                                    "course": 292,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.1179,
+                                    "lat": -31.9377,
+                                    "speedMph": 517,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:30:07.278Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.2547,
+                                    "lat": -31.9833,
+                                    "speedMph": 517,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:29:07.260Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.3917,
+                                    "lat": -32.0287,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:28:07.225Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.5289,
+                                    "lat": -32.074,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:27:07.150Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.6662,
+                                    "lat": -32.1192,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:26:07.109Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.8035,
+                                    "lat": -32.1641,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:25:07.084Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 159.941,
+                                    "lat": -32.2089,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:24:07.035Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.0786,
+                                    "lat": -32.2536,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:23:06.995Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.2166,
+                                    "lat": -32.2982,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:22:06.857Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.3544,
+                                    "lat": -32.3425,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:21:06.832Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.4923,
+                                    "lat": -32.3867,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:20:06.817Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.6304,
+                                    "lat": -32.4308,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:19:06.783Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.7686,
+                                    "lat": -32.4747,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:18:06.740Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 160.9071,
+                                    "lat": -32.5184,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:17:06.643Z",
+                                    "course": 291,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.0455,
+                                    "lat": -32.562,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:16:06.622Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.184,
+                                    "lat": -32.6054,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:15:06.614Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.3227,
+                                    "lat": -32.6487,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:14:06.588Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.4616,
+                                    "lat": -32.6918,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:13:06.514Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.6005,
+                                    "lat": -32.7348,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:12:06.477Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.7396,
+                                    "lat": -32.7776,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:11:06.439Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 161.8787,
+                                    "lat": -32.8202,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:10:06.437Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.018,
+                                    "lat": -32.8627,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:09:06.389Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.1574,
+                                    "lat": -32.905,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:08:06.372Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.297,
+                                    "lat": -32.9472,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:07:06.326Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.4366,
+                                    "lat": -32.9892,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:06:06.309Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.5765,
+                                    "lat": -33.031,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:05:06.233Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.7164,
+                                    "lat": -33.0727,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:04:06.203Z",
+                                    "course": 290,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.8563,
+                                    "lat": -33.1142,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:03:06.194Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 162.9965,
+                                    "lat": -33.1556,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:02:06.155Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.1367,
+                                    "lat": -33.1968,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:01:06.107Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.277,
+                                    "lat": -33.2378,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T04:00:06.101Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.4176,
+                                    "lat": -33.2787,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:59:06.034Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.5582,
+                                    "lat": -33.3194,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:58:05.996Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.699,
+                                    "lat": -33.36,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:57:05.963Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.8398,
+                                    "lat": -33.4004,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:56:05.915Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 163.9807,
+                                    "lat": -33.4406,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:55:05.899Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.1218,
+                                    "lat": -33.4807,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:54:05.892Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.2629,
+                                    "lat": -33.5206,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:53:05.886Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.4043,
+                                    "lat": -33.5603,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:52:05.818Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.5456,
+                                    "lat": -33.5999,
+                                    "speedMph": 515,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:51:05.813Z",
+                                    "course": 289,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.6871,
+                                    "lat": -33.6393,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:50:05.809Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.8288,
+                                    "lat": -33.6785,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:49:05.761Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 164.9705,
+                                    "lat": -33.7176,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:48:05.751Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.1124,
+                                    "lat": -33.7565,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:47:05.738Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.2546,
+                                    "lat": -33.7953,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:46:05.614Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.3967,
+                                    "lat": -33.8339,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:45:05.591Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.5389,
+                                    "lat": -33.8723,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:44:05.571Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.6813,
+                                    "lat": -33.9105,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:43:05.534Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.8237,
+                                    "lat": -33.9486,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:42:05.522Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 165.9662,
+                                    "lat": -33.9865,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:41:05.503Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.1089,
+                                    "lat": -34.0242,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:40:05.481Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.2517,
+                                    "lat": -34.0618,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:39:05.461Z",
+                                    "course": 288,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.3946,
+                                    "lat": -34.0992,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:38:05.438Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.5376,
+                                    "lat": -34.1364,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:37:05.409Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.6808,
+                                    "lat": -34.1735,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:36:05.360Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.824,
+                                    "lat": -34.2104,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:35:05.350Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 166.9674,
+                                    "lat": -34.2471,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:34:05.279Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.1109,
+                                    "lat": -34.2837,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:33:05.258Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.2545,
+                                    "lat": -34.3201,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:32:05.226Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.3982,
+                                    "lat": -34.3563,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:31:05.184Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.542,
+                                    "lat": -34.3923,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:30:05.171Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.6859,
+                                    "lat": -34.4282,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:29:05.142Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.83,
+                                    "lat": -34.4639,
+                                    "speedMph": 514,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:28:05.066Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 167.9743,
+                                    "lat": -34.4995,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:27:04.961Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.1186,
+                                    "lat": -34.5349,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:26:04.922Z",
+                                    "course": 287,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.2629,
+                                    "lat": -34.57,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:25:04.908Z",
+                                    "course": 286,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.4073,
+                                    "lat": -34.605,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:24:04.902Z",
+                                    "course": 286,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.5519,
+                                    "lat": -34.6398,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:23:04.883Z",
+                                    "course": 286,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.6965,
+                                    "lat": -34.6745,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:22:04.863Z",
+                                    "course": 286,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.8409,
+                                    "lat": -34.7089,
+                                    "speedMph": 513,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:21:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 168.9773,
+                                    "lat": -34.7625,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:20:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.1141,
+                                    "lat": -34.8157,
+                                    "speedMph": 521,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:19:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.2514,
+                                    "lat": -34.8695,
+                                    "speedMph": 528,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:18:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.3921,
+                                    "lat": -34.9241,
+                                    "speedMph": 529,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:17:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.5333,
+                                    "lat": -34.9788,
+                                    "speedMph": 531,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:16:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.6753,
+                                    "lat": -35.0334,
+                                    "speedMph": 534,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:15:05.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.817,
+                                    "lat": -35.0872,
+                                    "speedMph": 540,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:14:04.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 169.9612,
+                                    "lat": -35.1426,
+                                    "speedMph": 540,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:13:04.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:17:08.000Z"
+                                },
+                                {
+                                    "lon": 170.1055,
+                                    "lat": -35.1976,
+                                    "speedMph": 539,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:12:04.000Z",
+                                    "course": -66,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:16:02.000Z"
+                                },
+                                {
+                                    "lon": 170.2618,
+                                    "lat": -35.2545,
+                                    "speedMph": 516,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:11:04.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:15:42.000Z"
+                                },
+                                {
+                                    "lon": 170.4008,
+                                    "lat": -35.308,
+                                    "speedMph": 522,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:10:04.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:13:01.000Z"
+                                },
+                                {
+                                    "lon": 170.5418,
+                                    "lat": -35.3616,
+                                    "speedMph": 528,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:09:04.000Z",
+                                    "course": -65,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:13:01.000Z"
+                                },
+                                {
+                                    "lon": 170.6849,
+                                    "lat": -35.4151,
+                                    "speedMph": 534,
+                                    "altitudeFt": 34000,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:08:04.000Z",
+                                    "course": -66,
+                                    "vrateMps": 0,
+                                    "lastObserved": "2019-11-26T03:12:40.000Z"
+                                },
+                                {
+                                    "lon": 170.8308,
+                                    "lat": -35.4681,
+                                    "speedMph": 541,
+                                    "altitudeFt": 33917,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:07:04.000Z",
+                                    "course": -66,
+                                    "vrateMps": 2,
+                                    "lastObserved": "2019-11-26T03:08:26.000Z"
+                                },
+                                {
+                                    "lon": 170.9732,
+                                    "lat": -35.5257,
+                                    "speedMph": 535,
+                                    "altitudeFt": 33738,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:06:04.000Z",
+                                    "course": -63,
+                                    "vrateMps": 3,
+                                    "lastObserved": "2019-11-26T03:08:26.000Z"
+                                },
+                                {
+                                    "lon": 171.1162,
+                                    "lat": -35.5833,
+                                    "speedMph": 532,
+                                    "altitudeFt": 33809,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:05:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:08:26.000Z"
+                                },
+                                {
+                                    "lon": 171.2626,
+                                    "lat": -35.6496,
+                                    "speedMph": 522,
+                                    "altitudeFt": 33875,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:04:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 5,
+                                    "lastObserved": "2019-11-26T03:08:26.000Z"
+                                },
+                                {
+                                    "lon": 171.3874,
+                                    "lat": -35.7063,
+                                    "speedMph": 558,
+                                    "altitudeFt": 32576,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:03:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:07:33.000Z"
+                                },
+                                {
+                                    "lon": 171.5304,
+                                    "lat": -35.7734,
+                                    "speedMph": 558,
+                                    "altitudeFt": 31562,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:02:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:05:55.000Z"
+                                },
+                                {
+                                    "lon": 171.6726,
+                                    "lat": -35.8398,
+                                    "speedMph": 563,
+                                    "altitudeFt": 30835,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:01:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:04:49.000Z"
+                                },
+                                {
+                                    "lon": 171.817,
+                                    "lat": -35.9074,
+                                    "speedMph": 557,
+                                    "altitudeFt": 30066,
+                                    "source": "derived",
+                                    "date": "2019-11-26T03:00:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:03:20.000Z"
+                                },
+                                {
+                                    "lon": 171.9599,
+                                    "lat": -35.9739,
+                                    "speedMph": 554,
+                                    "altitudeFt": 29207,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:59:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:03:20.000Z"
+                                },
+                                {
+                                    "lon": 172.1025,
+                                    "lat": -36.0401,
+                                    "speedMph": 549,
+                                    "altitudeFt": 28537,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:58:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:01:47.000Z"
+                                },
+                                {
+                                    "lon": 172.244,
+                                    "lat": -36.1056,
+                                    "speedMph": 546,
+                                    "altitudeFt": 27829,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:57:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:00:54.000Z"
+                                },
+                                {
+                                    "lon": 172.3856,
+                                    "lat": -36.1708,
+                                    "speedMph": 543,
+                                    "altitudeFt": 27040,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:56:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T03:00:38.000Z"
+                                },
+                                {
+                                    "lon": 172.5406,
+                                    "lat": -36.2526,
+                                    "speedMph": 495,
+                                    "altitudeFt": 27363,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:55:04.000Z",
+                                    "course": -63,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:59:38.000Z"
+                                },
+                                {
+                                    "lon": 172.6741,
+                                    "lat": -36.3029,
+                                    "speedMph": 498,
+                                    "altitudeFt": 26595,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:54:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:58:39.000Z"
+                                },
+                                {
+                                    "lon": 172.8004,
+                                    "lat": -36.36,
+                                    "speedMph": 507,
+                                    "altitudeFt": 25319,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:53:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:57:34.000Z"
+                                },
+                                {
+                                    "lon": 172.9308,
+                                    "lat": -36.4186,
+                                    "speedMph": 509,
+                                    "altitudeFt": 24259,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:52:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:56:39.000Z"
+                                },
+                                {
+                                    "lon": 173.0629,
+                                    "lat": -36.4783,
+                                    "speedMph": 503,
+                                    "altitudeFt": 23263,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:51:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:55:35.000Z"
+                                },
+                                {
+                                    "lon": 173.1939,
+                                    "lat": -36.5371,
+                                    "speedMph": 496,
+                                    "altitudeFt": 22029,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:50:04.000Z",
+                                    "course": -61,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:54:28.000Z"
+                                },
+                                {
+                                    "lon": 173.3232,
+                                    "lat": -36.5945,
+                                    "speedMph": 491,
+                                    "altitudeFt": 20814,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:49:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:53:18.000Z"
+                                },
+                                {
+                                    "lon": 173.4507,
+                                    "lat": -36.652,
+                                    "speedMph": 489,
+                                    "altitudeFt": 19460,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:48:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:52:37.000Z"
+                                },
+                                {
+                                    "lon": 173.5766,
+                                    "lat": -36.7085,
+                                    "speedMph": 485,
+                                    "altitudeFt": 18033,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:47:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:51:40.000Z"
+                                },
+                                {
+                                    "lon": 173.7005,
+                                    "lat": -36.7639,
+                                    "speedMph": 484,
+                                    "altitudeFt": 16474,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:46:04.000Z",
+                                    "course": -60,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:50:31.000Z"
+                                },
+                                {
+                                    "lon": 173.823,
+                                    "lat": -36.8176,
+                                    "speedMph": 479,
+                                    "altitudeFt": 14981,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:45:04.000Z",
+                                    "course": -63,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:49:37.000Z"
+                                },
+                                {
+                                    "lon": 173.946,
+                                    "lat": -36.8676,
+                                    "speedMph": 455,
+                                    "altitudeFt": 13609,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:44:04.000Z",
+                                    "course": -67,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:48:34.000Z"
+                                },
+                                {
+                                    "lon": 174.0663,
+                                    "lat": -36.9111,
+                                    "speedMph": 414,
+                                    "altitudeFt": 12292,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:43:04.000Z",
+                                    "course": -70,
+                                    "vrateMps": 8,
+                                    "lastObserved": "2019-11-26T02:47:41.000Z"
+                                },
+                                {
+                                    "lon": 174.1816,
+                                    "lat": -36.9457,
+                                    "speedMph": 379,
+                                    "altitudeFt": 11017,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:42:04.000Z",
+                                    "course": -67,
+                                    "vrateMps": 9,
+                                    "lastObserved": "2019-11-26T02:46:39.000Z"
+                                },
+                                {
+                                    "lon": 174.2857,
+                                    "lat": -36.9766,
+                                    "speedMph": 368,
+                                    "altitudeFt": 9547,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:41:03.000Z",
+                                    "course": -64,
+                                    "vrateMps": 9,
+                                    "lastObserved": "2019-11-26T02:45:40.000Z"
+                                },
+                                {
+                                    "lon": 174.3815,
+                                    "lat": -37.0056,
+                                    "speedMph": 350,
+                                    "altitudeFt": 7758,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:40:03.000Z",
+                                    "course": -65,
+                                    "vrateMps": 9,
+                                    "lastObserved": "2019-11-26T02:44:40.000Z"
+                                },
+                                {
+                                    "lon": 174.4729,
+                                    "lat": -37.0323,
+                                    "speedMph": 328,
+                                    "altitudeFt": 5826,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:39:03.000Z",
+                                    "course": -69,
+                                    "vrateMps": 8,
+                                    "lastObserved": "2019-11-26T02:43:39.000Z"
+                                },
+                                {
+                                    "lon": 174.5609,
+                                    "lat": -37.0523,
+                                    "speedMph": 291,
+                                    "altitudeFt": 3907,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:38:03.000Z",
+                                    "course": -80,
+                                    "vrateMps": 7,
+                                    "lastObserved": "2019-11-26T02:42:39.000Z"
+                                },
+                                {
+                                    "lon": 174.642,
+                                    "lat": -37.0516,
+                                    "speedMph": 255,
+                                    "altitudeFt": 2446,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:37:03.000Z",
+                                    "course": -103,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:41:39.000Z"
+                                },
+                                {
+                                    "lon": 174.7094,
+                                    "lat": -37.033,
+                                    "speedMph": 206,
+                                    "altitudeFt": 1392,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:36:03.000Z",
+                                    "course": -109,
+                                    "vrateMps": 4,
+                                    "lastObserved": "2019-11-26T02:40:38.000Z"
+                                },
+                                {
+                                    "lon": 174.7798,
+                                    "lat": -37.0141,
+                                    "speedMph": 325,
+                                    "altitudeFt": 246,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:35:03.000Z",
+                                    "course": -108,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:39:39.000Z"
+                                },
+                                {
+                                    "lon": 174.8038,
+                                    "lat": -36.934,
+                                    "speedMph": 310,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:34:03.000Z",
+                                    "course": -159,
+                                    "vrateMps": 6,
+                                    "lastObserved": "2019-11-26T02:38:38.000Z"
+                                },
+                                {
+                                    "lon": 174.8126,
+                                    "lat": -36.9997,
+                                    "speedMph": 40,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:33:03.000Z",
+                                    "course": -127,
+                                    "vrateMps": 5,
+                                    "lastObserved": "2019-11-26T02:37:35.000Z"
+                                },
+                                {
+                                    "lon": 174.8746,
+                                    "lat": -36.9915,
+                                    "speedMph": 81,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:32:03.000Z",
+                                    "course": -104,
+                                    "vrateMps": 5,
+                                    "lastObserved": "2019-11-26T02:36:35.000Z"
+                                },
+                                {
+                                    "lon": 174.5661,
+                                    "lat": -36.9647,
+                                    "speedMph": 197,
+                                    "altitudeFt": 2452,
+                                    "source": "derived",
+                                    "date": "2019-11-26T02:31:03.221Z",
+                                    "course": 283,
+                                    "vrateMps": 3,
+                                    "lastObserved": "2019-11-26T02:35:41.000Z"
+                                }
+                            ],
+                            "irregularOperations": []
+                        }
+                    },
+                    "flightState": "en-route"
+                },
+                "route": {
+                    "header": {},
+                    "flights": [],
+                    "showCodeshares": null
+                },
+                "flightLoading": false,
+                "otherDays": [
+                    {
+                        "date1": "23-Nov",
+                        "date2": "Nov-23",
+                        "day": "Saturday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=23u0026flightId=1022181445",
+                                "sortTime": "2019-11-23T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "24-Nov",
+                        "date2": "Nov-24",
+                        "day": "Sunday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=24u0026flightId=1022288744",
+                                "sortTime": "2019-11-24T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "25-Nov",
+                        "date2": "Nov-25",
+                        "day": "Monday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=25u0026flightId=1022401162",
+                                "sortTime": "2019-11-25T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "26-Nov",
+                        "date2": "Nov-26",
+                        "day": "Tuesday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=26u0026flightId=1022509824",
+                                "sortTime": "2019-11-26T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "27-Nov",
+                        "date2": "Nov-27",
+                        "day": "Wednesday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=27u0026flightId=1022618527",
+                                "sortTime": "2019-11-27T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "28-Nov",
+                        "date2": "Nov-28",
+                        "day": "Thursday",
+                        "year": "2019",
+                        "flights": [
+                            {
+                                "arrivalAirport": {
+                                    "city": "Singapore",
+                                    "fs": "SIN",
+                                    "iata": "SIN",
+                                    "name": "Changi International Airport",
+                                    "state": "",
+                                    "country": "SG"
+                                },
+                                "arrivalTime": "8:55",
+                                "arrivalTimeAmPm": "PM",
+                                "arrivalTime24": "20:55",
+                                "arrivalTimezone": "+08",
+                                "departureAirport": {
+                                    "city": "Auckland",
+                                    "fs": "AKL",
+                                    "iata": "AKL",
+                                    "name": "Auckland Airport",
+                                    "state": "",
+                                    "country": "NZ"
+                                },
+                                "departureTime": "3:15",
+                                "departureTimeAmPm": "PM",
+                                "departureTime24": "15:15",
+                                "departureTimezone": "NZDT",
+                                "url": "/flight-tracker/SQ/286?year=2019u0026month=11u0026date=28u0026flightId=1022722717",
+                                "sortTime": "2019-11-28T02:15:00.000Z"
+                            }
+                        ]
+                    },
+                    {
+                        "date1": "29-Nov",
+                        "date2": "Nov-29",
+                        "day": "Friday",
+                        "year": "2019",
+                        "flights": []
+                    }
+                ]
+            },
+            "loading": {
+                "LOAD_FLIGHT_TRACKER_FLIGHT": false,
+                "LOAD_FLIGHT_TRACKER_OTHER_DAYS": false
+            },
+            "error": {
+                "LOAD_FLIGHT_TRACKER_FLIGHT": "",
+                "LOAD_FLIGHT_TRACKER_OTHER_DAYS": ""
+            },
+            "euCompliance": {
+                "country": "",
+                "finishedCountryFetch": false,
+                "hasDeterminedPersonalizedAds": false,
+                "showEUOptInBanner": false
+            }
+        },
+        "initialProps": {
+            "user": {},
+            "pageProps": {
+                "params": {
+                    "carrierCode": "SQ",
+                    "flightNumber": "286",
+                    "year": "2019",
+                    "month": "11",
+                    "date": "26",
+                    "flightId": "1022509824"
+                },
+                "isHistoricalFlight": false,
+                "isOutOfDateRange": false,
+                "head": {
+                    "title": "SQ286 - Singapore Airlines SQ 286 Flight Tracker",
+                    "description": "SQ286 Flight Tracker - Track the real-time flight status of Singapore Airlines SQ 286 live using the FlightStats Global Flight Tracker. See if your flight has been delayed or cancelled and track the live position on a map.",
+                    "keywords": "Singapore Airlines 286 flight tracker, Singapore Airlines 286 flight status, SQ 286 flight tracker, SQ 286 flight status, Singapore Airlines SQ 286 map, SQ 286, SQ286, Singapore Airlines 286",
+                    "canonical": "/flight-tracker/SQ/286",
+                    "noIndex": false
+                },
+                "userAgent": "Go-http-client/1.1",
+                "hostname": "www.flightstats.com"
+            }
+        }
+    },
+    "page": "/flight-tracker",
+    "pathname": "/flight-tracker",
+    "query": {
+        "carrierCode": "SQ",
+        "flightNumber": "286",
+        "flightId": "1022509824",
+        "year": "2019",
+        "month": "11",
+        "date": "26"
+    },
+    "buildId": "82a9561d-8c58-451e-beaa-88519d863cb2",
+    "assetPrefix": "https://assets.flightstats.com",
+    "nextExport": false,
+    "err": null
+}
